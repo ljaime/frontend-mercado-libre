@@ -1,7 +1,10 @@
 {
   "devDependencies": {
+    "@cypress/react": "^5.9.4",
+    "@cypress/webpack-dev-server": "^1.4.0",
     "babel-loader": "^8.2.2",
     "css-loader": "1.0.0",
+    "cypress": "^8.3.0",
     "style-loader": "0.23.0",
     "webpack": "4.19.1",
     "webpack-cli": "3.1.1",
@@ -16,6 +19,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode development --hot",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "test": "cypress open"
   }
 }

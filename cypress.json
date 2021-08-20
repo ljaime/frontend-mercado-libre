@@ -1,0 +1,9 @@
+{
+    "component": {
+      "testFiles": "**/*.test.{js,ts,jsx,tsx}",
+      "componentFolder": "src"
+    },
+    "env": {
+        "host": "http://localhost:3000"
+    }
+  }

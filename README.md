@@ -1,4 +1,4 @@
-# Frontend Test MELI
+# Backend Test MELI
 
 
 ## Instalación
@@ -19,4 +19,9 @@ yarn
 
 ```bash
 yarn start
+```
+
+### 3. Iniciar Testing
+```bash
+yarn test
 ```

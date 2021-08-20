@@ -4,7 +4,7 @@ import { ContainerResults } from "./styles";
 
 export default function Result({ products = [] }) {
   return (
-    <ContainerResults>
+    <ContainerResults className="container-results">
       {products.map((product, index) => (
         <ItemProduct
           key={index}

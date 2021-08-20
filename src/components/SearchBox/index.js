@@ -28,7 +28,7 @@ export default function SearchBox() {
           id="inputSearch"
           defaultValue={search}
         />
-        <InputGroup onClick={() => handleSearch()}>
+        <InputGroup onClick={() => handleSearch()} className="searchButton">
           <img src="../assets/ic_Search.png" />
         </InputGroup>
       </ContainerInputSearch>

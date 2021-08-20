@@ -26,9 +26,8 @@ export default function ItemProduct({
   city,
   free_shipping,
 }) {
-  const priceFormated = formatPrice(price.amount);
   return (
-    <Container>
+    <Container className="item-product">
       <Link to={`/items/${id}`}>
         <ContainerItemProduct>
           <ContainerImage>
